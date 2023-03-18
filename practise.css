@@ -1,0 +1,15 @@
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+section{
+    width: 100%;
+    max-width :300px;
+
+  height: 80vh;
+  border: 1px solid black;  
+}
