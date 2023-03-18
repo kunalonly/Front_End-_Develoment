@@ -1,0 +1,41 @@
+.nav__link{
+    color: blue;
+    font-size: large;
+}
+.nav__link--active{
+    color: red;
+
+}
+div{
+transition: background-color 300ms;
+}
+div:hover{
+background-color: blueviolet;
+}
+
+div::after
+{
+    content: " KUNAL";
+}
+
+button{
+    animation: float 2000ms infinite alternate-reverse;
+    transition: all 300ms;
+    padding: 10px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: black;
+    color:white;
+}
+
+@keyframes float{
+
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(5px);
+    }
+}

@@ -1,0 +1,19 @@
+div{
+   
+background-color: blue;
+color: aliceblue;
+font-size: 24px;
+}
+
+@media(max-width:576px)
+{
+    div{
+         font-size: 16px;
+         background-color: aqua;
+         color: black;
+         font-weight: bold;
+         font-style: italic;
+       }
+   
+
+}
